@@ -1,6 +1,6 @@
 'use client'
 import { Box, Button, Modal, Stack, TextField, Typography } from "@mui/material";
-import Image from "next/image";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState,useEffect } from "react";
 import { firestore } from "../firebase";
 import { collection,
